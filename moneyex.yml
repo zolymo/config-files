@@ -1,13 +1,13 @@
 moneyex:
   business:
-    - 'CAMBIAFX,tc_compra : ,tc_venta : ,.'
-    - 'TUCAMBISTA,"buyExchangeRate": ,"sellExchangeRate": ,.'
-    - 'CAMBISTAINKA,"nTCCompra":","nTCVenta":",.'
-    - 'ACOMO,"BID":,"OFFER":,.'
-    - 'CAMBIOSEGURO,compra: ,venta: ,.'
-    - 'TKAMBIO,sell_type_change":",buy_type_change":",.'
-    - 'REXTIE,fx_rate_buy":",fx_rate_sell":",.'
-    - 'DOLLARHOUSE,buy-exchange-rate">,sell-exchange-rate">,.'
+    - 'CAMBIAFX_,tc_compra : ,tc_venta : ,.'
+    - 'TUCAMBISTA_,"buyExchangeRate": ,"sellExchangeRate": ,.'
+    - 'CAMBISTAINKA_,"nTCCompra":","nTCVenta":",.'
+    - 'ACOMO_,"BID":,"OFFER":,.'
+    - 'CAMBIOSEGURO_,compra: ,venta: ,.'
+    - 'TKAMBIO_,sell_type_change":",buy_type_change":",.'
+    - 'REXTIE_,fx_rate_buy":",fx_rate_sell":",.'
+    - 'DOLLARHOUSE_,buy-exchange-rate">,sell-exchange-rate">,.'
   server:
     type: WINDOWS
     pathBase: E:\iNovaStudio\Development\MoneyExchange\exchangeRates
