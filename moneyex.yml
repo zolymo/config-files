@@ -1,3 +1,7 @@
 moneyex:
   business:
     - "TU CAMBISTA,compra-tc,tc_venta : ,https://tucambista.pe,."
+  server:
+    type: WINDOWS
+    pathBase: E:\iNovaStudio\Development\MoneyExchange\exchangeRates
+    pathUpdated: E:\iNovaStudio\Development\MoneyExchange\exchangeSaved
