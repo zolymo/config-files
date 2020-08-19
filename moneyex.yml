@@ -22,3 +22,33 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate.ddl-auto: none
+api:
+  common:
+    version: 1.0.0
+    title: Servicio
+    description: Endpoints a ser consumidos por servicio-email
+    termsOfServiceUrl: www.inovastudio.com/tocs
+    license: Creative Commons
+    licenseUrl: www.inovastudio.com
+    contact:
+      name: Hans Villaizan
+      url: www.cooptumi.com
+      email: aseniordesarrollo2@cooptumi.com
+logging:
+  level:
+    org:
+      apache:
+        ibatis: TRACE
+      springframework: WARN
+mybatis:
+  mapper-locations: classpath*:com/inovastudio/moneyex/mapper/*.xml
+  type-aliases-package: com.inovastudio.moneyex.model
+#spring:
+#  datasource:
+#    jndi-name: java:/erp-tumi
+#  servlet:
+#    multipart:
+#      max-file-size: 5MB
+#      max-request-size: 5MB
+#      enabled: true
+
